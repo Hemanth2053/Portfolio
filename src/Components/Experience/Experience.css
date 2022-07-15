@@ -1,0 +1,97 @@
+.exp-main{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.exp-main > h6{
+    padding-top: 6rem;
+}
+.exp-educ-main{
+   width: 80%;
+   margin: 5% 10% 10% 10%;
+}
+
+.pri-header{
+    margin-top: 1.5rem;
+}
+
+.exp-prio-des{
+   
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.priority-col-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.icon-exp{
+    background-color: rgba(0, 0, 0, 0.562);
+    width: 100%;
+    margin: 2rem;
+    padding: 3rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 1.5rem;
+    
+}
+.exp-secondary > h2 {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    header{
+        height: 70vh;
+        
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    section{
+        margin-top: 2rem;
+        height: auto;
+        text-align: center;
+    }
+    .exp-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .exp-educ{
+        width: 100%;
+    }
+    .exp-priority{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .icon-exp{
+        width: 100%;
+        margin: 2rem 2rem 2rem 1rem;
+
+     }
+    .exp-prio-des{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+    
+    .priority-col-1{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    
+}
+
